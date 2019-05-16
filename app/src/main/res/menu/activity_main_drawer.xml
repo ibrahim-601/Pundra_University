@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"
+            android:textColor="@android:color/black" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contacts"
+            android:title="@string/contacts"
+            android:textColor="@android:color/black" />
+        <item
+            android:id="@+id/nav_routine"
+            android:icon="@drawable/ic_routine"
+            android:title="@string/routine"
+            android:textColor="@android:color/black" />
+        <item
+            android:id="@+id/nav_bus"
+            android:icon="@drawable/ic_bus"
+            android:textColor="@android:color/black"
+            android:title="@string/bus" />
+        <item
+            android:id="@+id/nav_cgpa"
+            android:icon="@drawable/ic_calc"
+            android:textColor="@android:color/black"
+            android:title="@string/cgpa" />
+    </group>
+    <item
+        android:id="@+id/nav_web"
+        android:icon="@drawable/ic_web"
+        android:title="@string/website"
+        android:textColor="@android:color/black"/>
+    <item
+        android:id="@+id/nav_dev"
+        android:icon="@drawable/ic_dev"
+        android:title="@string/dev"
+        android:textColor="@android:color/black"/>
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share"
+        android:textColor="@android:color/black"/>
+
+</menu>

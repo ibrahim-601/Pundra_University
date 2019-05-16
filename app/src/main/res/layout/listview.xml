@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:weightSum="100">
+
+
+    <TextView
+        android:id="@+id/listserial"
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Serial" />
+
+    <TextView
+        android:id="@+id/listcredit"
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Credits" />
+    <TextView
+        android:id="@+id/listshowgpa"
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="GPA" />
+
+    <TextView
+        android:id="@+id/listtotal"
+        android:layout_weight="25"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="25dp"
+        android:textAlignment="center"
+        android:text="Total" />
+
+</LinearLayout>

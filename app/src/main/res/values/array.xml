@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="dept">
+        <item>Tap here to Select department</item>
+        <item>Administrative</item>
+        <item>Business Administration</item>
+        <item>Computer Science &amp; Engineering</item>
+        <item>Electrical &amp; Electronic Engineering</item>
+        <item>Public Health</item>
+        <item>Civil Engineering</item>
+        <item>Islamic Studies</item>
+        <item>English</item>
+        <item>Law</item>
+        <item>Academic Staff</item>
+
+    </string-array>
+
+    <string-array name="routine">
+        <item>Tap here to Select department</item>
+        <item>BBA</item>
+        <item>Civil</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>English</item>
+        <item>Islamic Studies</item>
+        <item>LLB</item>
+        <item>MBA</item>
+        <item>MPH</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.Cgpa">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+        android:text="Input Credits &amp; CGPA"
+        android:textSize="20dp"
+        android:id="@+id/tvcgpa"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"/>
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_below="@+id/tvcgpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:weightSum="100">
+
+        <EditText
+            android:id="@+id/creditinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:hint="Credit"
+            android:textAlignment="center"
+            android:inputType="textPhonetic" />
+
+        <EditText
+            android:id="@+id/cgpainput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:hint="GPA"
+            android:textAlignment="center"
+            android:inputType="textPhonetic" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:id="@+id/cgpabtn"
+            android:layout_marginRight="5dp"
+            android:text="ADD"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_below="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_weight="34.28"
+            android:text="CGPA  ="
+            android:textSize="25dp"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_weight="34.34"
+            android:textSize="25dp"
+            android:id="@+id/cgpaoutput"
+            android:text="0.00"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:id="@+id/cgpacalc"
+            android:layout_marginRight="5dp"
+            android:text="Calculte"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/cgpalist"
+        android:layout_below="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+
+</RelativeLayout>

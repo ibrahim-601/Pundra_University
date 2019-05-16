@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/table_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/table_des"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="38"
+            android:gravity="center"
+            android:text="Designation"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/table_phon"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="37"
+            android:gravity="center"
+            android:text="Contact no."
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

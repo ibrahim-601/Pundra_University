@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.Dev">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/dev_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:focusable="true"
+        android:clickable="true"
+        android:text="@string/email" />
+
+
+    <TextView
+        android:id="@+id/dev_nam"
+        android:layout_above="@+id/dev_mail"
+        android:layout_marginBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Name" />
+
+
+
+    <Button
+        android:id="@+id/dev_fb"
+        android:layout_below="@+id/dev_nam"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:clickable="true"
+        android:text="@string/fb" />
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "326070412903",
+    "firebase_url": "https://pundrauniversity-32668.firebaseio.com",
+    "project_id": "pundrauniversity-32668",
+    "storage_bucket": "pundrauniversity-32668.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326070412903:android:e558d5e054c2252b",
+        "android_client_info": {
+          "package_name": "com.kmrobin.pundrauniversity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326070412903-l7sntb4jnrpbas3k4jp1msr8bk87nf7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1AgX3GJ57mL7QFvOmh0pB-LONoZzb4lI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

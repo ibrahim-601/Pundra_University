@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Pundra University</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_name">Pundra University of\nScience &amp; Technology</string>
+    <string name="nav_header_add">Rangpur Road, Gokul, Bogra</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home">Home</string>
+    <string name="contacts">Contacts</string>
+    <string name="routine">Routines</string>
+    <string name="bus">Bus info</string>
+    <string name="cgpa">CGPA Calculator</string>
+    <string name="website">Visit Website</string>
+    <string name="bus_sch">View Schdule</string>
+    <string name="dev">Contact developer</string>
+    <string name="share">Share</string>
+
+
+    <string name="Name">Md Ibrahim</string>
+    <string name="email">email developer</string>
+    <string name="fb">Facebook profile</string>
+
+
+
+    <!--
+    <string name="banner_robin">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ibrahim">ca-app-pub-3940256099942544/6300978111</string>
+                        ca-app-pub-3940256099942544/1033173712
+                                                                                -->
+
+</resources>

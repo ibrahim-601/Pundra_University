@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/btn_bus"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/bus"
+        android:layout_width="175dp"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/btn_routine"
+        android:layout_above="@+id/btn_bus"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/routine"
+        android:layout_width="175dp"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/btn_contacs"
+        android:layout_above="@+id/btn_routine"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/contacts"
+        android:layout_width="175dp"
+        android:layout_height="60dp" />
+
+
+
+    <Button
+        android:id="@+id/btn_cgpa"
+        android:layout_below="@+id/btn_bus"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cgpa"
+        android:layout_width="175dp"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/btn_web"
+        android:layout_below="@+id/btn_cgpa"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/website"
+        android:layout_width="175dp"
+        android:layout_height="60dp" />
+
+
+</RelativeLayout>
