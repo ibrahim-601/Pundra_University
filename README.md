@@ -1,6 +1,3 @@
-# Pundra_University
-Android app for Pundra University of Science &amp; Technology (PUB).
-
 ## Introduction
 This project is to help people related to Pundra University of Science &amp; Technology (PUB) to easily find contact numbers of the employees.
 This app also contains class schedule for the students of Pundra University of Science &amp; Technology (PUB). It also has a CGPA calculator 
