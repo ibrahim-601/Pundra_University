@@ -12,7 +12,9 @@ for the ease to calculate one's CGPA.
 
 ### Dependencies
 
-#### PhotoView
+#### 1. PhotoView
 Visit [Chrisbanes github page](https://github.com/chrisbanes/PhotoView)
-#### Glide
-#### Okhttp
+#### 2. Glide
+Visit [Glide github page](https://github.com/bumptech/glide)
+#### 3. Okhttp
+Visit [OkHttp github page](https://github.com/square/okhttp)
