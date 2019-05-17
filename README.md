@@ -11,6 +11,8 @@ for the ease to calculate one's CGPA.
 #### This app can be used for reference to use google sheet data as database for an application
 
 ### Dependencies
+
 #### PhotoView
+Visit [Chrisbanes github page](https://github.com/chrisbanes/PhotoView)
 #### Glide
 #### Okhttp
