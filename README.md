@@ -7,3 +7,10 @@ This app also contains class schedule for the students of Pundra University of S
 for the ease to calculate one's CGPA.
 
 #### This app uses google sheet and google drive files to fetch it's content.
+
+#### This app can be used for reference to use google sheet data as database for an application
+
+### Dependencies
+#### PhotoView
+#### Glide
+#### Okhttp
